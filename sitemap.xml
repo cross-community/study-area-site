@@ -6,6 +6,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://study-are.sre.tw/GuideLine/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://study-are.sre.tw/01_SRE/CH01/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
