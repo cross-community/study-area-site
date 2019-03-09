@@ -6,11 +6,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://study-are.sre.tw/GuideLine/</loc>
-     <lastmod>2019-03-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://study-are.sre.tw/01_SRE/CH01/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
@@ -77,6 +72,26 @@
     </url>
     <url>
      <loc>https://study-are.sre.tw/01_SRE/CH32-34/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://study-are.sre.tw/Articles/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://study-are.sre.tw/Incidents/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://study-are.sre.tw/Events/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://study-are.sre.tw/separator/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -161,22 +176,22 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://study-are.sre.tw/separator/</loc>
+     <lastmod>2019-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://study-are.sre.tw/03_K8s/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://study-are.sre.tw/Articles/</loc>
+     <loc>https://study-are.sre.tw/separator/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://study-are.sre.tw/Incidents/</loc>
-     <lastmod>2019-03-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://study-are.sre.tw/Events/</loc>
+     <loc>https://study-are.sre.tw/GuideLine/</loc>
      <lastmod>2019-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
