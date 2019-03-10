@@ -196,7 +196,17 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://study-area.sre.tw/separator/</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://study-area.sre.tw/ChangeLog/</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://study-area.sre.tw/notes/</loc>
      <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
