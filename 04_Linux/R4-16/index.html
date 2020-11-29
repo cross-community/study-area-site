@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="https://study-area.sre.tw/03_K8s/CH19/">
+        <link rel="canonical" href="https://study-area.sre.tw/04_Linux/R4-16/">
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
@@ -17,7 +17,7 @@
     
     
       
-        <title>第十九章 - SRE / DevOps Taiwan 讀書會</title>
+        <title>#16 CH49-51 - SRE / DevOps Taiwan 讀書會</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#19-statefulset" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳轉到
         </a>
       
@@ -92,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              第十九章
+              #16 CH49-51
             
           </span>
         </div>
@@ -204,7 +204,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../" class="md-tabs__link md-tabs__link--active">
+        <a href="../../03_K8s/" class="md-tabs__link">
           R3: 深入剖析 K8s
         </a>
       
@@ -217,7 +217,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../04_Linux/" class="md-tabs__link">
+        <a href="../" class="md-tabs__link md-tabs__link--active">
           R4: Linux 效能優化實戰
         </a>
       
@@ -801,12 +801,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       R3: 深入剖析 K8s
@@ -830,7 +828,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="春酒與選書" class="md-nav__link">
+    <a href="../../03_K8s/" title="春酒與選書" class="md-nav__link">
       春酒與選書
     </a>
   </li>
@@ -842,7 +840,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Schedule/" title="讀書會行程" class="md-nav__link">
+    <a href="../../03_K8s/Schedule/" title="讀書會行程" class="md-nav__link">
       讀書會行程
     </a>
   </li>
@@ -854,7 +852,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../QA/" title="讀書會 QA" class="md-nav__link">
+    <a href="../../03_K8s/QA/" title="讀書會 QA" class="md-nav__link">
       讀書會 QA
     </a>
   </li>
@@ -866,7 +864,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../CH18/" title="第十八章" class="md-nav__link">
+    <a href="../../03_K8s/CH18/" title="第十八章" class="md-nav__link">
       第十八章
     </a>
   </li>
@@ -876,121 +874,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        第十九章
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="第十九章" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../03_K8s/CH19/" title="第十九章" class="md-nav__link">
       第十九章
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    前言與回顧
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#persistentvolumeclaimspvc" class="md-nav__link">
-    關於 PersistentVolumeClaims（PVC）
-  </a>
-  
-    <nav class="md-nav" aria-label="關於 PersistentVolumeClaims（PVC）">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pvc" class="md-nav__link">
-    使用 PVC 前
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pvc_1" class="md-nav__link">
-    使用 PVC 後
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#persistentvolumepv" class="md-nav__link">
-    關於 PersistentVolume（PV）
-  </a>
-  
-    <nav class="md-nav" aria-label="關於 PersistentVolume（PV）">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pvpvc" class="md-nav__link">
-    PV、PVC 優點
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pvpvc_1" class="md-nav__link">
-    PV、PVC 缺點
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#statefulset-pv-pvc" class="md-nav__link">
-    StatefulSet 與 PV &amp; PVC
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#statefulset" class="md-nav__link">
-    StatefulSet 其他特色與回顧
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1003,10 +891,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       R4: Linux 效能優化實戰
@@ -1030,7 +920,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/" title="活動摘要" class="md-nav__link">
+    <a href="../" title="活動摘要" class="md-nav__link">
       活動摘要
     </a>
   </li>
@@ -1042,7 +932,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/Vote/" title="選書" class="md-nav__link">
+    <a href="../Vote/" title="選書" class="md-nav__link">
       選書
     </a>
   </li>
@@ -1054,7 +944,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-01/" title="#01 CH01-04" class="md-nav__link">
+    <a href="../R4-01/" title="#01 CH01-04" class="md-nav__link">
       #01 CH01-04
     </a>
   </li>
@@ -1066,7 +956,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-02/" title="#02 CH05-06" class="md-nav__link">
+    <a href="../R4-02/" title="#02 CH05-06" class="md-nav__link">
       #02 CH05-06
     </a>
   </li>
@@ -1078,7 +968,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-03/" title="#03 CH07-10" class="md-nav__link">
+    <a href="../R4-03/" title="#03 CH07-10" class="md-nav__link">
       #03 CH07-10
     </a>
   </li>
@@ -1090,7 +980,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-04/" title="#04 CH11-13" class="md-nav__link">
+    <a href="../R4-04/" title="#04 CH11-13" class="md-nav__link">
       #04 CH11-13
     </a>
   </li>
@@ -1102,7 +992,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-05/" title="#05 CH14-16" class="md-nav__link">
+    <a href="../R4-05/" title="#05 CH14-16" class="md-nav__link">
       #05 CH14-16
     </a>
   </li>
@@ -1114,7 +1004,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-06/" title="#06 CH17-20" class="md-nav__link">
+    <a href="../R4-06/" title="#06 CH17-20" class="md-nav__link">
       #06 CH17-20
     </a>
   </li>
@@ -1126,7 +1016,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-07/" title="#07 CH21-23" class="md-nav__link">
+    <a href="../R4-07/" title="#07 CH21-23" class="md-nav__link">
       #07 CH21-23
     </a>
   </li>
@@ -1138,7 +1028,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-08/" title="#08 CH24-26" class="md-nav__link">
+    <a href="../R4-08/" title="#08 CH24-26" class="md-nav__link">
       #08 CH24-26
     </a>
   </li>
@@ -1150,7 +1040,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-09/" title="#09 CH27-29" class="md-nav__link">
+    <a href="../R4-09/" title="#09 CH27-29" class="md-nav__link">
       #09 CH27-29
     </a>
   </li>
@@ -1162,7 +1052,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-10/" title="#10 CH30-32" class="md-nav__link">
+    <a href="../R4-10/" title="#10 CH30-32" class="md-nav__link">
       #10 CH30-32
     </a>
   </li>
@@ -1174,7 +1064,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-11/" title="#11 CH33-35" class="md-nav__link">
+    <a href="../R4-11/" title="#11 CH33-35" class="md-nav__link">
       #11 CH33-35
     </a>
   </li>
@@ -1186,7 +1076,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-12/" title="#12 CH36-38" class="md-nav__link">
+    <a href="../R4-12/" title="#12 CH36-38" class="md-nav__link">
       #12 CH36-38
     </a>
   </li>
@@ -1198,7 +1088,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-13/" title="#13 CH39,40,45" class="md-nav__link">
+    <a href="../R4-13/" title="#13 CH39,40,45" class="md-nav__link">
       #13 CH39,40,45
     </a>
   </li>
@@ -1210,7 +1100,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-14/" title="#14 CH41-44" class="md-nav__link">
+    <a href="../R4-14/" title="#14 CH41-44" class="md-nav__link">
       #14 CH41-44
     </a>
   </li>
@@ -1222,7 +1112,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../04_Linux/R4-15/" title="#15 CH46-48" class="md-nav__link">
+    <a href="../R4-15/" title="#15 CH46-48" class="md-nav__link">
       #15 CH46-48
     </a>
   </li>
@@ -1232,11 +1122,70 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../04_Linux/R4-16/" title="#16 CH49-51" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        #16 CH49-51
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="#16 CH49-51" class="md-nav__link md-nav__link--active">
       #16 CH49-51
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    摘要
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    錄影
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    簡報
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    相關資料
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1259,8 +1208,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon">
@@ -1272,75 +1219,28 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    前言與回顧
+    摘要
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#persistentvolumeclaimspvc" class="md-nav__link">
-    關於 PersistentVolumeClaims（PVC）
-  </a>
-  
-    <nav class="md-nav" aria-label="關於 PersistentVolumeClaims（PVC）">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pvc" class="md-nav__link">
-    使用 PVC 前
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pvc_1" class="md-nav__link">
-    使用 PVC 後
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#persistentvolumepv" class="md-nav__link">
-    關於 PersistentVolume（PV）
-  </a>
-  
-    <nav class="md-nav" aria-label="關於 PersistentVolume（PV）">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pvpvc" class="md-nav__link">
-    PV、PVC 優點
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pvpvc_1" class="md-nav__link">
-    PV、PVC 缺點
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#statefulset-pv-pvc" class="md-nav__link">
-    StatefulSet 與 PV &amp; PVC
+  <a href="#_2" class="md-nav__link">
+    錄影
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#statefulset" class="md-nav__link">
-    StatefulSet 其他特色與回顧
+  <a href="#_3" class="md-nav__link">
+    簡報
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    相關資料
   </a>
   
 </li>
@@ -1357,7 +1257,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/cross-community/study-area-docs/edit/master/docs/03_K8s/CH19.md" title="編輯此頁" class="md-content__button md-icon">
+                  <a href="https://github.com/cross-community/study-area-docs/edit/master/docs/04_Linux/R4-16.md" title="編輯此頁" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -1365,232 +1265,33 @@
                   
                 
                 
-                <h1 id="19-statefulset">19章節：深入理解 StatefulSet（二）：儲存狀態<a class="headerlink" href="#19-statefulset" title="Permanent link">&para;</a></h1>
-<h2 id="_1">前言與回顧<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>我們回顧下，上一篇的要點～
-StatefulSet 觀念中有其二最為重要：</p>
-<div class="codehilite"><pre><span></span><code>1. 拓樸狀態：這意味著同一個服務不同的 pod 之間，有相依性、順序性。
-2. 儲存狀態：這意味著該 pod 目前所存取到的數據資料，過了 n 個時間點，或哪怕 pod 重啟了，仍然存取相同一份資料。
-</code></pre></div>
-
-
-<p>在先前關於 Pod 章節中，提到需要使用 Volume 並且在 pod 中定義了spec.volumes 來表達儲存空間需求。
-在沒有相關 API 協助下，pod 應用服務開發者必須要很清楚儲存資源從何而來，甚至需要知道背後更多細節，這對開發者不甚友善。</p>
-<p>何況，在大型服務的背後，需要有強而有力的儲存資源，這些更需要專業的管理者，而不是讓開發者分心與擔憂儲存的穩定性、可用性。</p>
-<p>因此，在 K8s 環境下例如要整合 Ceph、EMC、NetApp 等各個形式儲存系統，提供了重要的 API 介面：</p>
-<ul>
-<li>PersistentVolume（PV）</li>
-<li>PersistentVolumeClaims（PVC）</li>
+                  <h1>#16 CH49-51</h1>
+                
+                <ul>
+<li>時間：2020/11/26 20:00 ~ 21:30</li>
+<li>場地：Google Meet (91APP 提供)</li>
+<li><a href="https://lds.guru/9tzsrm">導讀進度表</a></li>
+<li><a href="https://hackmd.io/59SIi9h1TOqboz35jFHtwA">線上共筆</a></li>
 </ul>
-<h2 id="persistentvolumeclaimspvc">關於 PersistentVolumeClaims（PVC）<a class="headerlink" href="#persistentvolumeclaimspvc" title="Permanent link">&para;</a></h2>
-<h3 id="pvc">使用 PVC 前<a class="headerlink" href="#pvc" title="Permanent link">&para;</a></h3>
-<p>先來看下，尚未透過上述 API 對象引用 Volume 時，pod yaml 檔案必須自行定義複雜的<code>volumes</code>資訊 ;
-範例：採用 Ceph 儲存系統</p>
-<div class="codehilite"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
-<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Pod</span>
-<span class="nt">metadata</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbd</span>
-<span class="nt">spec</span><span class="p">:</span>
-  <span class="nt">containers</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">kubernetes/pause</span>
-      <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbd-rw</span>
-      <span class="nt">volumeMounts</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbdpd</span>
-        <span class="nt">mountPath</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/mnt/rbd</span>
-  <span class="nt">volumes</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbdpd</span>
-      <span class="nt">rbd</span><span class="p">:</span>
-        <span class="nt">monitors</span><span class="p">:</span>
-        <span class="p p-Indicator">-</span> <span class="s">&#39;10.2.3.1:6789&#39;</span>
-        <span class="p p-Indicator">-</span> <span class="s">&#39;10.2.3.2:6789&#39;</span>
-        <span class="p p-Indicator">-</span> <span class="s">&#39;10.2.3.3:6789&#39;</span>
-        <span class="nt">pool</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">kube</span>
-        <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">foo</span>
-        <span class="nt">fsType</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ext4</span>
-        <span class="nt">readOnly</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
-        <span class="nt">user</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">admin</span>
-        <span class="nt">keyring</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/etc/ceph/keyring</span>
-        <span class="nt">imageformat</span><span class="p">:</span> <span class="s">&quot;2&quot;</span>
-        <span class="nt">imagefeatures</span><span class="p">:</span> <span class="s">&quot;layering&quot;</span>
-</code></pre></div>
-
-
-<p>上述 yaml 檔案呈現出兩個現象：</p>
-<div class="codehilite"><pre><span></span><code>1. 必須懂 Ceph RBD 細節。
-2. 資源暴露，相對有資訊管理的考量。
-</code></pre></div>
-
-
-<h3 id="pvc_1">使用 PVC 後<a class="headerlink" href="#pvc_1" title="Permanent link">&para;</a></h3>
-<p>下面 yaml 檔案內容，透過獨立的 PVC 說明資源需求，pod yaml 再引用 PVC 作為<code>volumes</code>來源即可。
-如此作法，開發者只需專注於"儲存需求面"。</p>
-<div class="codehilite"><pre><span></span><code><span class="c1"># PVC API 對象，表達出儲存資源需求</span>
-<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">PersistentVolumeClaim</span>
-<span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
-<span class="nt">metadata</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-claim</span>
-<span class="nt">spec</span><span class="p">:</span>
-  <span class="nt">accessModes</span><span class="p">:</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">ReadWriteOnce</span>
-  <span class="nt">resources</span><span class="p">:</span>
-    <span class="nt">requests</span><span class="p">:</span>
-      <span class="nt">storage</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1Gi</span>
-
-<span class="nn">---</span>
-<span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
-<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Pod</span>
-<span class="nt">metadata</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-pod</span>
-<span class="nt">spec</span><span class="p">:</span>
-  <span class="nt">containers</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-container</span>
-      <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">nginx</span>
-      <span class="nt">ports</span><span class="p">:</span>
-        <span class="p p-Indicator">-</span> <span class="nt">containerPort</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">80</span>
-          <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;http-server&quot;</span>
-      <span class="nt">volumeMounts</span><span class="p">:</span>
-        <span class="p p-Indicator">-</span> <span class="nt">mountPath</span><span class="p">:</span> <span class="s">&quot;/usr/share/nginx/html&quot;</span>
-          <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-storage</span>
-  <span class="nt">volumes</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-storage</span>
-      <span class="nt">persistentVolumeClaim</span><span class="p">:</span>      <span class="c1"># &lt;&lt; 指定使用 PVC</span>
-        <span class="nt">claimName</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-claim</span>
-</code></pre></div>
-
-
-<h2 id="persistentvolumepv">關於 PersistentVolume（PV）<a class="headerlink" href="#persistentvolumepv" title="Permanent link">&para;</a></h2>
-<p>講了 PVC 就不得不說說 PV～</p>
-<p>PVC 就像是資源需求者，說明了需要多少儲存資源～</p>
-<p>PV 就是資源提供者，
-既是資源提供者，顧名思義 PV 肩負著 K8s 與各式儲存系統之間的通訊橋樑，後端各式的儲存系統可能是 Ceph、EMC、NetApp 或者是 NFS。</p>
-<p>下列是 K8s 透過 PV 取得後端 Ceph 儲存系統資源的 yaml 定義檔案。</p>
-<div class="codehilite"><pre><span></span><code><span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">PersistentVolume</span>
-<span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
-<span class="nt">metadata</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pv-volume</span>
-  <span class="nt">labels</span><span class="p">:</span>
-    <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">local</span>
-<span class="nt">spec</span><span class="p">:</span>
-  <span class="nt">capacity</span><span class="p">:</span>
-    <span class="nt">storage</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">10Gi</span>
-  <span class="nt">rbd</span><span class="p">:</span>
-    <span class="nt">monitors</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="s">&#39;10.16.154.78:6789&#39;</span>
-    <span class="p p-Indicator">-</span> <span class="s">&#39;10.16.154.82:6789&#39;</span>
-    <span class="p p-Indicator">-</span> <span class="s">&#39;10.16.154.83:6789&#39;</span>
-    <span class="nt">pool</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">kube</span>
-    <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">foo</span>
-    <span class="nt">fsType</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ext4</span>
-    <span class="nt">readOnly</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
-    <span class="nt">user</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">admin</span>
-    <span class="nt">keyring</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/etc/ceph/keyring</span>
-    <span class="nt">imageformat</span><span class="p">:</span> <span class="s">&quot;2&quot;</span>
-    <span class="nt">imagefeatures</span><span class="p">:</span> <span class="s">&quot;layering&quot;</span>
-</code></pre></div>
-
-
-<p>有無發現，上述 yaml 內容中的 <code>spec.rbd</code> 字段，與本文章第一個 pod yaml 內容 <code>spec.volumes.rbd</code> 一樣的。
-原本複雜的資源提供者角色工作（儲存服務介接），透過 PV 來完成。</p>
-<h3 id="pvpvc">PV、PVC 優點<a class="headerlink" href="#pvpvc" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>1. 資源提供者，透過 PV 來定義有哪些資源可用。
-2. 資源需求者，透過 PVC 來表達需要多少空間與存取模式。
-3. 經過 PV、PVC 兩個 API 介面，可以分責分權更加容易定位問題點，另可避免資訊管理的負擔。
-</code></pre></div>
-
-
-<h3 id="pvpvc_1">PV、PVC 缺點<a class="headerlink" href="#pvpvc_1" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>目前明確缺點是，需要先定義出 PV（確保資源可用），PVC 才可獲得必要資源。
-</code></pre></div>
-
-
-<h2 id="statefulset-pv-pvc">StatefulSet 與 PV &amp; PVC<a class="headerlink" href="#statefulset-pv-pvc" title="Permanent link">&para;</a></h2>
-<p>StatefulSet 也是借重 PV &amp; PVC 角色，對於完成「儲存狀態」目標變得很輕易完成。
-看下 StatefulSet yaml 範例：</p>
-<div class="codehilite"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">apps/v1</span>
-<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">StatefulSet</span>
-<span class="nt">metadata</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">web</span>
-<span class="nt">spec</span><span class="p">:</span>
-  <span class="nt">serviceName</span><span class="p">:</span> <span class="s">&quot;nginx&quot;</span>
-  <span class="nt">replicas</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
-  <span class="nt">selector</span><span class="p">:</span>
-    <span class="nt">matchLabels</span><span class="p">:</span>
-      <span class="nt">app</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">nginx</span>
-  <span class="nt">template</span><span class="p">:</span>
-    <span class="nt">metadata</span><span class="p">:</span>
-      <span class="nt">labels</span><span class="p">:</span>
-        <span class="nt">app</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">nginx</span>
-    <span class="nt">spec</span><span class="p">:</span>
-      <span class="nt">containers</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">nginx</span>
-        <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">nginx:1.9.1</span>
-        <span class="nt">ports</span><span class="p">:</span>
-        <span class="p p-Indicator">-</span> <span class="nt">containerPort</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">80</span>
-          <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">web</span>
-        <span class="nt">volumeMounts</span><span class="p">:</span>
-        <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">www</span>
-          <span class="nt">mountPath</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/usr/share/nginx/html</span>
-  <span class="nt">volumeClaimTemplates</span><span class="p">:</span>     <span class="c1"># &lt;&lt; 使用 PVC Templates</span>
-  <span class="p p-Indicator">-</span> <span class="nt">metadata</span><span class="p">:</span>
-      <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">www</span>
-    <span class="nt">spec</span><span class="p">:</span>
-      <span class="nt">accessModes</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">ReadWriteOnce</span>
-      <span class="nt">resources</span><span class="p">:</span>
-        <span class="nt">requests</span><span class="p">:</span>
-          <span class="nt">storage</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1Gi</span>
-</code></pre></div>
-
-
-<p>此範本使用 <code>volumeClaimTemplates</code> ，此作用會促使 StatefulSet 管理的 pod 皆會對應相同的 PVC 規格。</p>
-<p>套用此 StatefulSet 後，會有幾個特色需要知道：</p>
-<ol>
-<li>PVC 名稱命名特徵：<code>&lt;pvc_name&gt;-&lt;pod_name&gt;-&lt;number&gt;</code>。</li>
-<li>PVC 名稱編號，會與 Pod 名稱編號相同。</li>
-<li>另外此 PVC 成功綁定 PV 後，會呈現 <code>STATUS：Bound</code> 狀態。</li>
-<li>
-<p>即使刪除了 pod ，並不會刪除 PVC，PVC 管理獨立於另一個 PVC 控制器。</p>
-<blockquote>
-<p>提醒：當然 PVC 要能夠成功綁定，需要先設定好 PV。</p>
-</blockquote>
-</li>
-</ol>
-<p>Pod、PVC 狀態如下</p>
-<div class="codehilite"><pre><span></span><code>kubectl get pvc
-<span class="c1"># NAME     STATUS   VOLUME       CAPACITY   ACCESS MODES   STORAGECLASS   AGE</span>
-www-web-0  Bound    pvc-xxx-id   1Gi        RWO            standard       1d
-www-web-1  Bound    pvc-xxx-id   1Gi        RWO            standard       1d
-
-kubectl get pod
-<span class="c1"># NAME    READY   STATUS      RESTARTS   AGE</span>
-web-0     <span class="m">1</span>/1     Running     <span class="m">0</span>          1d
-web-1     <span class="m">1</span>/1     Running     <span class="m">0</span>          1d
-</code></pre></div>
-
-
-<p><strong>特別回顧下 StatefulSet 拓樸狀態特色</strong>，說明下當刪除 Pod <code>web-0</code> 之後的過程：</p>
-<ol>
-<li>StatefulSet 控制器會發現 Pod <code>web-0</code> 已經消失了，開始進行重建相同名稱的 Pod <code>web-0</code>。</li>
-<li>重建規範當然是上述 StatefulSet yaml 內容，故此 Pod <code>web-0</code> 所對應的 PVC 仍是 <code>www-web-0</code>。</li>
-<li>基於上述 StatefulSet yaml 內容，Pod <code>web-0</code> 會尋找、使用相對應的 PVC <code>www-web-0</code>。</li>
-<li>原本已經寫入 PVC <code>www-web-0</code> 儲存空間內之內容，即可被 Pod <code>web-0</code> 讀取。</li>
-</ol>
-<p>這 Pod <code>web-0</code> 重建過程流程，呼應 StatefulSet 拓樸狀態的基本要求。
-<strong>也是完成<code>儲存狀態 一致性</code>的要求。</strong></p>
-<hr />
-<h2 id="statefulset">StatefulSet 其他特色與回顧<a class="headerlink" href="#statefulset" title="Permanent link">&para;</a></h2>
+<h2 id="_1">摘要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>StatefulSet 控制器直接管理對象是 Pod，相較於 Deployment 是透過 ReplicaSet 管理 Pod 有所不同。
-區分方式就是 Pod 名稱裡的<code>編號</code>。</p>
-</li>
-<li>
-<p>StatefulSet 透過 Headless Service 為這些有編號的 Pod 帶有唯一的 DNS 紀錄。
-<code>&lt;pod_name&gt;.&lt;service_name&gt;.&lt;namespace&gt;.svc.cluster.local</code> 其對應的 IP 記錄，會隨著 Pod_IP 變動跟著更新。</p>
-</li>
-<li>
-<p>StatefulSet 藉由 <code>拓樸狀態、儲存狀態</code> 兩大設計功能，完成「有狀態服務性質」的應用程式，所需要的 <code>狀態相依性、順序性、資料一致性</code> 目標。</p>
-</li>
+<li>49 | 案例篇：內核線程 CPU 利用率太高，我該怎麼辦？ - 賴義偉</li>
+<li>50 | 案例篇：動態追蹤怎麼用？（上） - Hazel Shen</li>
+<li>51 | 案例篇：動態追蹤怎麼用？（下） - Hazel Shen </li>
+</ul>
+<h2 id="_2">錄影<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>TBD</p>
+<h2 id="_3">簡報<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p><embed src="/pdf/Linux/49_kernel_process_high_cpu.pdf" type="application/pdf" width="100%" height="500px" />
+<embed src="/pdf/Linux/50_51_DTrace_for_Linux.pdf" type="application/pdf" width="100%" height="500px" /></p>
+<h2 id="_4">相關資料<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/brendangregg/FlameGraph">github - FlameGraph</a></li>
+<li><a href="https://daniellockyer.com/php-flame-graphs/">How to generate PHP Flamegraphs</a></li>
+<li><a href="https://www.youtube.com/watch?v=lNsESiTcgGY&amp;ab_channel=CloudNativeTaiwan">lua script</a></li>
+<li><a href="http://pramodkumbhar.com/2019/05/summary-of-python-profiling-tools-part-i/">Python Profiling Tools</a></li>
+<li><a href="https://grafana.com/blog/2020/05/22/new-in-grafana-7.0-trace-viewer-and-integrations-with-jaeger-and-zipkin/">Grafana 7.0: Trace viewer and integrations with Jaeger and Zipkin</a></li>
+<li><a href="https://www.facebook.com/groups/sre.taiwan/permalink/1878976158934946/">社群FB活動貼文 : Round 4 #16</a></li>
 </ul>
                 
               
@@ -1610,7 +1311,7 @@ web-1     <span class="m">1</span>/1     Running     <span class="m">0</span>   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../CH18/" title="第十八章" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../R4-15/" title="#15 CH46-48" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1619,25 +1320,11 @@ web-1     <span class="m">1</span>/1     Running     <span class="m">0</span>   
                 <span class="md-footer-nav__direction">
                   上一頁
                 </span>
-                第十八章
+                #15 CH46-48
               </div>
             </div>
           </a>
         
-        
-          <a href="../../04_Linux/" title="活動摘要" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  下一頁
-                </span>
-                活動摘要
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
         
       </nav>
     </div>
